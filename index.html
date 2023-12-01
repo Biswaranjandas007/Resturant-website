@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Resturant</title>
+</head>
+
+<body>
+  <div class="upar-menu">
+    <i class="ri-close-fill"></i>
+    <div class="left-upar-menu">
+      <h1 id="abhishek">Home</h1>
+      <h1 id="amarjeet">About</h1>
+      <h1 id="rk">Order</h1>
+      <h1 id="ak">Contact</h1>
+    </div>
+    <div class="right-upar-menu">
+      <div id="all-image-upar">
+        <div id="slider-upar-wala">
+          <div class="menu-img-one"></div>
+          <div class="menu-img-two"></div>
+          <div class="menu-img-three"></div>
+          <div class="menu-img-four"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="enlarge" id="circle">
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+      width="300px" height="300px" viewBox="0 0 300 300" enable-background="new 0 0 300 300" xml:space="preserve">
+      <defs>
+        <path id="circlePath" d="M 150, 150 m -60, 0 a 60,60 0 0,1 120,0 a 60,60 0 0,1 -120,0 " />
+      </defs>
+      <circle cx="150" cy="100" r="75" fill="none" />
+      <g>
+        <use xlink:href="#circlePath" fill="none" />
+        <text fill="#000">
+          <textPath xlink:href="#circlePath">
+            Order Food * Drinks * Table Booking * Room Booking *
+          </textPath>
+        </text>
+      </g>
+    </svg>
+  </div>
+  <div id="main-again">
+    <div id="nav">
+      <div class="nav-part" id="lft-nav">
+        <div class="logo enlarge"></div>
+        <i class="ri-menu-line"></i>
+        <i class="ri-close-fill"></i>
+      </div>
+      <div id="cntr-nav">
+        <div class="search">
+          <i class="ri-menu-line"></i>
+          <i class="ri-close-fill"></i>
+          <div class="divider"></div>
+          <i class="ri-search-2-line"></i>
+          <div class="search-box"></div>
+          <i class="ri-map-pin-line"></i>
+          <div class="divider"></div>
+          <i class="ri-shopping-bag-line"></i>
+        </div>
+      </div>
+      <div class="nav-part" id="rght-nav">
+        <a class="enlarge" href="#">Hotel</a>
+        <a class="enlarge" href="#">Table</a>
+        <a class="enlarge" href="#">Food</a>
+        <button class="enlarge">Login/Register</button>
+      </div>
+    </div>
+    <div class="main-abhishek">
+      <div class="diver">
+        <div class="img-div">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="img-one"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="main-txt-front">
+          <h1 class="enlarge"><span>K</span>THIK</h1>
+          <p class="enlarge">
+            Food Order & Table Booking & Stay <br />At one Place.
+          </p>
+        </div>
+        <div class="front-page-img">
+          <div id="line-effect-1" class="line-effect">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
+          <div id="line-effect-2" class="line-effect">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
+          <div id="line-effect-3" class="line-effect">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
+          <div class="mandit"></div>
+          <div class="mandit-2"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="main2">
+    <div id="home">
+      <canvas></canvas>
+    </div>
+    <div class="txt-home modern">
+      <div class="h-container">
+        <h1 class="enlarge" id="h-one">DÉLICIOSA</h1>
+      </div>
+      <div class="h-container">
+        <h1 class="enlarge" id="h-two">FINE DINING</h1>
+      </div>
+      <div class="h-container">
+        <h1 class="enlarge" id="h-three">
+          Taste that makes you <br> go yummmmm. <br />Come for a drink, <br> stay for a meal. <br />
+          From our casa to yours. <br />
+          Feed your happy. <br />
+        </h1>
+      </div>
+    </div>
+  </div>
+
+  <!----- part-3 ----->
+  <header>
+    <nav>
+      <div class="logo_ul">
+        <a href="/"><img src="./Images/burger_url.webp" alt=""></a>
+      </div>
+    </nav>
+    <section>
+      <div class="content">
+        <h5>NEW</h5>
+        <h1 class="title">THE CHICKEN <br>BURGER</h1>
+        <div class="spicy_icon">
+          <img src="./Images/icon_1.png" alt="">
+          <img src="./Images/icon_1.png" alt="">
+          <img src="./Images/icon_1.png" alt="">
+          <img src="./Images/icon_2.png" alt="">
+          <img src="./Images/icon_2.png" alt="">
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis numquam iusto nesciunt doloremque!
+          Officiis consequatur molestiae commodi</p>
+        <h6>INGREDIENTS</h6>
+        <div class="ing_icon">
+          <img src="./Images/icon_3.png" alt="">
+          <img src="./Images/icon_4.png" alt="">
+          <img src="./Images/icon_5.png" alt="">
+          <img src="./Images/icon_6.png" alt="">
+          <img src="./Images/icon_7.png" alt="">
+          <h6>3+</h6>
+        </div>
+        <div class="order_rate">
+          <a href="">ORDER NOW</a>
+          <h2 class="price">$11.98 <sup><del>$14.99</del></sup></h2>
+        </div>
+        <div class="food_slider">
+          <img src="./Images/Burger-1.png" alt="">
+          <img src="./Images/Burger-2.png" alt="">
+          <img src="./Images/Burger-3.png" alt="">
+          <img src="./Images/Burger-4.png" alt="">
+          <img src="./Images/Burger-5.png" alt="">
+          <img src="./Images/Burger-6.png" alt="">
+          <img src="./Images/Burger-7.png" alt="">
+        </div>
+      </div>
+      <div class="img_bx">
+        <div class="images">
+          <img class="main_imgs" src="./Images/Burger-1.png" alt="">
+          <img class="main_imgs" src="./Images/Burger-2.png" alt="">
+          <img class="main_imgs" src="./Images/Burger-3.png" alt="">
+          <img class="main_imgs" src="./Images/Burger-4.png" alt="">
+          <img class="main_imgs" src="./Images/Burger-5.png" alt="">
+          <img class="main_imgs" src="./Images/Burger-6.png" alt="">
+          <img class="main_imgs" src="./Images/Burger-7.png" alt="">
+        </div>
+        <div class="slide_btns">
+          <i class="ri-arrow-left-s-line"></i>
+          <i class="ri-arrow-right-s-line"></i>
+        </div>
+        <div class="burger_badge">
+          <div class="badge_card">
+            <h6>Calorie</h6>
+            <p>Kcal</p>
+            <h5 id="calorie">6379</h5>
+          </div>
+          <div class="badge_card">
+            <h6>Fat</h6>
+            <p>g</p>
+            <h5 id="fat">87</h5>
+          </div>
+          <div class="badge_card">
+            <h6>Protine</h6>
+            <p>g</p>
+            <h5 id="protine">76</h5>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <!-- part-4 -->
+  <div id="chiken">
+    <header class="header-2">
+      <div class="logo">
+        <h1>Kothik</h1>
+        <img src="./Images/food1.png" alt="" id="poster">
+      </div>
+      <div class="left_menu">
+        <a href="#">Fastfood</a>
+        <a href="#">Seafood</a>
+        <a href="#">Nuggets</a>
+      </div>
+      <section>
+        <div class="content">
+          <h1 id="title">THAI CHICKEN</h1>
+          <p>We promise to bring smile on your face with our exquisite food and delightful service, which typically
+            specialize in Chiken dishes such as fried chiken ,chiken and waffles etc.</p>
+          <div class="price_order">
+            <div class="price">
+              <h2 id="price_cont">$34</h2>
+              <p>total payble</p>
+            </div>
+            <a href="#">Order now</a>
+          </div>
+        </div>
+        <div class="cards">
+          <div class="card">
+            <img src="./Images/food2.png" alt="" class="dis">
+            <img src="./Images/steam.png" alt="" class="steam">
+            <h4>$19</h4>
+            <h5>CORDON BELU</h5>
+            <p>Per Plate</p>
+            <div class="rate_cart">
+              <h6>5.0</h6>
+              <i class="ri-shopping-cart-2-line"></i>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./Images/food3.png" alt="" class="dis">
+            <img src="./Images/steam.png" alt="" class="steam">
+            <h4>$11</h4>
+            <h5>KORMA CASHEW</h5>
+            <p>Per Plate</p>
+            <div class="rate_cart">
+              <h6>4.6</h6>
+              <i class="ri-shopping-cart-2-line"></i>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./Images/food4.png" alt="" class="dis">
+            <img src="./Images/steam.png" alt="" class="steam">
+            <h4>$19</h4>
+            <h5>PICCATA NUGG</h5>
+            <p>Per Plate</p>
+            <div class="rate_cart">
+              <h6>5.0</h6>
+              <i class="ri-shopping-cart-2-line"></i>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./Images/food5.png" alt="" class="dis">
+            <img src="./Images/steam.png" alt="" class="steam">
+            <h4>$11</h4>
+            <h5>CACITORE MURG</h5>
+            <p>Per Plate</p>
+            <div class="rate_cart">
+              <h6>4.6</h6>
+              <i class="ri-shopping-cart-2-line"></i>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./Images/food6.png" alt="" class="dis">
+            <img src="./Images/steam.png" alt="" class="steam">
+            <h4>$19</h4>
+            <h5>KYIV CHICKEN</h5>
+            <p>Per Plate</p>
+            <div class="rate_cart">
+              <h6>5.0</h6>
+              <i class="ri-shopping-cart-2-line"></i>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./Images/food7.png" alt="" class="dis">
+            <img src="./Images/steam.png" alt="" class="steam">
+            <h4>$11</h4>
+            <h5>CRIPYS FRIED</h5>
+            <p>Per Plate</p>
+            <div class="rate_cart">
+              <h6>4.6</h6>
+              <i class="ri-shopping-cart-2-line"></i>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./Images/food8.png" alt="" class="dis">
+            <img src="./Images/steam.png" alt="" class="steam">
+            <h4>$19</h4>
+            <h5>AYAM GORENG</h5>
+            <p>Per Plate</p>
+            <div class="rate_cart">
+              <h6>5.0</h6>
+              <i class="ri-shopping-cart-2-line"></i>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./Images/food9.png" alt="" class="dis">
+            <img src="./Images/steam.png" alt="" class="steam">
+            <h4>$11</h4>
+            <h5>STEW CHICKEN</h5>
+            <p>Per Plate</p>
+            <div class="rate_cart">
+              <h6>4.6</h6>
+              <i class="ri-shopping-cart-2-line"></i>
+            </div>
+          </div>
+      </section>
+      <div class="social">
+        <div class="btns">
+          <i class="ri-arrow-left-s-fill bi"></i>
+          <i class="ri-arrow-right-s-fill bi"></i>
+        </div>
+      </div>
+    </header>
+  </div>
+
+  <!-- part-5 -->
+  <div id="main">
+    <div id="nav">
+      <!-- <div id="nav-left">
+            <a href="#">Category</a>
+            <a href="#">Lifestyle</a>
+            <a href="#">Books</a>
+            <i class="ri-menu-2-line"></i>
+        </div> -->
+      <div id="nav-center">
+        <!-- <div id="day"></div>
+            <div id="night"></div>
+            <div id="cntr-circle"></div> -->
+      </div>
+      <div id="nav-right">
+        <!-- <i class="ri-heart-line"></i> -->
+        <!-- <div id="cart">
+                <i class="ri-shopping-cart-2-line"></i>
+                <div id="cart-number">
+                    <h6>2</h6>
+                </div>
+            </div> -->
+        <div id="account"></div>
+      </div>
+    </div>
+    <div id="hero">
+      <div id="left-hero">
+        <div id="freshness">
+          <h1>Freshness</h1>
+          <img id="imgone" src="Images/Path 1.png" alt="">
+        </div>
+        <h1>start's</h1>
+        <div id="here">
+          <h1>here</h1>
+          <div id="energy">
+            <i class="ri-flashlight-line"></i>
+          </div>
+        </div>
+        <h2>$9.99</h2>
+        <p>Fresh, tangy and tasty cold drink <br>with refereshing minty notes</p>
+        <div id="add-to-cart">
+          <div id="cart-btn">
+            <i class="ri-shopping-bag-line"></i>
+            <h3>Add to cart</h3>
+          </div>
+          <i id="wish" class="ri-heart-line"></i>
+        </div>
+        <i id="right-arrow" class="ri-arrow-right-line"></i>
+      </div>
+      <div id="center-hero">
+        <div id="can-back">
+          <img id="pepsi" src="Images/pepsi.png" alt="">
+          <img id="path2" src="Images/Path 2.png" alt="">
+          <div id="small-ball">
+            <div id="ball1"></div>
+            <div id="ball2"></div>
+            <div id="ball3"></div>
+          </div>
+          <div id="scroll">
+            <i class="ri-arrow-down-line"></i>
+          </div>
+          <div id="lft-float" class="float-comment">
+            <div class="pixone" id="pic"></div>
+            <h1><span>Payal priti </span>has <br>just purchased</h1>
+            <div id="lock">
+              <i class="ri-lock-line"></i>
+            </div>
+          </div>
+          <div id="rght-float" class="float-comment">
+            <div class="pixtwo" id="pic"></div>
+            <h1><span>Biswa </span>has liked<br>this item</h1>
+            <div id="lock">
+              <i class="ri-heart-fill"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="right-hero">
+        <div id="lft-rght">
+          <i class="ri-arrow-left-line"></i>
+          <i class="ri-arrow-right-line"></i>
+        </div>
+        <div id="expand-one" class="expand">
+          <h1>Description</h1>
+          <i class="ri-add-line"></i>
+        </div>
+        <hr>
+        <div class="expand">
+          <h1>Nutrition</h1>
+          <i class="ri-add-line"></i>
+        </div>
+        <hr>
+        <div class="expand">
+          <h1 id="int">Ingredients</h1>
+          <i class="ri-subtract-line"></i>
+        </div>
+        <p>Fresh, tangy and zesty lime with refereshing minty notes</p>
+      </div>
+    </div>
+  </div>
+
+  <!--part-5-->
+
+  <!--Gallary-->
+
+  <div class="gallary" id="Gallary">
+    <h1>Our<span>Gallary</span></h1>
+
+    <div class="gallary_image_box">
+      <div class="gallary_image">
+        <img src="Images/gallary_1.jpg">
+
+        <h3>Food</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi sint eveniet laboriosam
+        </p>
+        <a href="#" class="gallary_btn">Order Now</a>
+      </div>
+
+      <div class="gallary_image">
+        <img src="Images/gallary_2.jpg">
+
+        <h3>Food</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi sint eveniet laboriosam
+        </p>
+        <a href="#" class="gallary_btn">Order Now</a>
+      </div>
+
+      <div class="gallary_image">
+        <img src="Images/gallary_3.jpg">
+
+        <h3>Food</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi sint eveniet laboriosam
+        </p>
+        <a href="#" class="gallary_btn">Order Now</a>
+      </div>
+
+      <div class="gallary_image">
+        <img src="Images/gallary_4.jpg">
+
+        <h3>Food</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi sint eveniet laboriosam
+        </p>
+        <a href="#" class="gallary_btn">Order Now</a>
+      </div>
+
+      <div class="gallary_image">
+        <img src="Images/gallary_5.jpg">
+
+        <h3>Food</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi sint eveniet laboriosam
+        </p>
+        <a href="#" class="gallary_btn">Order Now</a>
+      </div>
+
+      <div class="gallary_image">
+        <img src="Images/gallary_6.jpg">
+
+        <h3>Food</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi sint eveniet laboriosam
+        </p>
+        <a href="#" class="gallary_btn">Order Now</a>
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+
+  <!--Review-->
+
+  <div class="review" id="Review">
+    <h1>Customer<span>Review</span></h1>
+
+    <div class="review_box">
+      <div class="review_card">
+
+        <div class="review_profile">
+          <img src="Images/review_1.png">
+        </div>
+
+        <div class="review_text">
+          <h2 class="name">John Deo</h2>
+
+          <div class="review_icon">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+
+          <div class="review_social">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+          </div>
+
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus quam facere
+            blanditiis in fugiat tempore necessitatibus aliquid.
+
+          </p>
+
+        </div>
+
+      </div>
+
+      <div class="review_card">
+
+        <div class="review_profile">
+          <img src="Images/review_2.png">
+        </div>
+
+        <div class="review_text">
+          <h2 class="name">John Deo</h2>
+
+          <div class="review_icon">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+
+          <div class="review_social">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+          </div>
+
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus quam facere
+            blanditiis in fugiat tempore necessitatibus aliquid.
+          </p>
+
+        </div>
+
+      </div>
+
+      <div class="review_card">
+
+        <div class="review_profile">
+          <img src="Images/review_3.png">
+        </div>
+
+        <div class="review_text">
+          <h2 class="name">John Deo</h2>
+
+          <div class="review_icon">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+
+          <div class="review_social">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+          </div>
+
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus quam facere
+            blanditiis in fugiat tempore necessitatibus aliquid.
+
+          </p>
+
+        </div>
+
+      </div>
+
+      <div class="review_card">
+
+        <div class="review_profile">
+          <img src="Images/review_4.png">
+        </div>
+
+        <div class="review_text">
+          <h2 class="name">John Deo</h2>
+
+          <div class="review_icon">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+
+          <div class="review_social">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+          </div>
+
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus quam facere
+            blanditiis in fugiat tempore necessitatibus aliquid.
+
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!--Team-->
+
+  <div class="team">
+    <h1>Our<span>Team</span></h1>
+
+    <div class="team_box">
+      <div class="profile">
+        <img src="Images/chef1.png">
+
+        <div class="info">
+          <h2 class="name">Chef</h2>
+          <p class="bio">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+          <div class="team_icon">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="profile">
+        <img src="Images/chef2.png">
+
+        <div class="info">
+          <h2 class="name">Chef</h2>
+          <p class="bio">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+          <div class="team_icon">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="profile">
+        <img src="Images/chef3.jpg">
+
+        <div class="info">
+          <h2 class="name">Chef</h2>
+          <p class="bio">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+          <div class="team_icon">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="profile">
+        <img src="Images/chef4.jpg">
+
+        <div class="info">
+          <h2 class="name">Chef</h2>
+          <p class="bio">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+          <div class="team_icon">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+  <!--Footer-->
+
+  <footer>
+    <div class="footer_main">
+
+      <div class="footer_tag">
+        <h2>Location</h2>
+        <p>Sri Lanka</p>
+        <p>USA</p>
+        <p>India</p>
+        <p>Japan</p>
+        <p>Italy</p>
+      </div>
+
+      <div class="footer_tag">
+        <h2>Quick Link</h2>
+        <p>Home</p>
+        <p>About</p>
+        <p>Menu</p>
+        <p>Gallary</p>
+        <p>Order</p>
+      </div>
+
+      <div class="footer_tag">
+        <h2>Contact</h2>
+        <p>+91 874 256 789</p>
+        <p>+91 9934 256 789</p>
+        <p>kothik@gmail.com</p>
+        <p>biswa@gmail.com</p>
+      </div>
+
+      <div class="footer_tag">
+        <h2>Our Service</h2>
+        <p>Fast Delivery</p>
+        <p>Easy Payments</p>
+        <p>24 x 7 Service</p>
+      </div>
+
+      <div class="footer_tag">
+        <h2>Follows</h2>
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin-in"></i>
+      </div>
+
+    </div>
+
+    <p class="end">Design by<span><i class="fa-solid fa-face-grin"></i> D Biswa Ranjan</span></p>
+
+  </footer>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"
+    integrity="sha512-f8mwTB+Bs8a5c46DEm7HQLcJuHMBaH/UFlcgyetMqqkvTcYg4g5VXsYR71b3qC82lZytjNYvBj2pf0VekA9/FQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"
+    integrity="sha512-A64Nik4Ql7/W/PJk2RNOmVyC/Chobn5TY08CiKEX50Sdw+33WTOpPJ/63bfWPl0hxiRv1trPs5prKO8CpA7VNQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
